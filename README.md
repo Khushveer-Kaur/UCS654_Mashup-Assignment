@@ -92,8 +92,23 @@ The mashup ZIP file will be sent to the provided email.
 ## Requirements
 
 - Python 3.10+
+- pip installed
 - FFmpeg installed and added to system PATH
-- Gmail App Password enabled for email sending
+
+Note:
+Flask and yt-dlp are installed using:
+
+`pip install -r requirements.txt`
+
+FFmpeg is NOT installed using pip.
+It must be downloaded separately from:
+https://ffmpeg.org/download.html
+
+After downloading, add the FFmpeg "bin" folder to System Environment Variables → PATH.
+Verify installation using:
+
+ffmpeg -version
+
 
 ------------------------------------------------------------
 
