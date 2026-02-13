@@ -71,7 +71,7 @@ Step 2: Run the Flask server
 
 Step 3: Open browser and go to:
 
-[Clicklable Text](http://127.0.0.1:5000)
+[http://127.0.0.1:5000](http://127.0.0.1:5000)
 
 Step 4: Fill the form and submit.
 
